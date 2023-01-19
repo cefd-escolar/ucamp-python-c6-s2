@@ -1,20 +1,15 @@
-# Definicion de variables
-n1=int(0)
-x=int(0)
-r=int(0)
+# Program start message
+print("PROGRAM START")
 
-# Mensaje de inicio del programa
-print("Inicio el programa")
+# Request one number in console
+input_number = int(input('Enter a number please:'))
 
-# Solicita un número por consola
-n1=int(input('Digite un numero por favor: '))
+# Multiply the number captured by 5
+multiplier = 5
+result = input_number*multiplier
 
-# Multiplica el número capturado por 5
-x=int(5)
-r=n1*x
+# Show the result
+print("The number", input_number, "multiplied by", multiplier, "is equal to", result)
 
-# Imprime el resultado
-print("El numero",n1,"multiplicado por",x,"es igual a",r)
-
-# Mensaje del fin del programa
-print("Finalizo el programa")
+# Program end message
+print("PROGRAM ENDED")
